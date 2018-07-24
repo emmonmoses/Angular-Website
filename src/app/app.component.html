@@ -1,0 +1,37 @@
+<!doctype html>
+<div class="nav">
+  <img id="logo" src="./assets/allogo.png">
+  <a class="nava" routerLink="services">Services</a>
+  <a class="nava" routerLink="products">Products</a>
+  <a class="nava" routerLink="home">Home</a>
+</div>
+
+<router-outlet></router-outlet>
+
+<div id="map">
+  <div id="map1">
+    <small id="newsmall">Office 601, 6th Floor, Ras Dashen Building, Airport Road, Bole,Addis Ababa, Ethiopia
+      <br> info@appliedline.com
+      <br>
+    </small>
+  </div>
+
+  <div id="map2">
+    <agm-map [latitude]="lat" [longitude]="lng" [mapDraggable]="false" [zoom]="17" [scrollwheel]="false">
+      <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+    </agm-map>
+  </div>
+</div>
+
+<div class="newfooter">
+  <small id="newsmall2">
+    &#169;2018 Appliedline
+  </small>
+</div>
+
+<div class="footer">
+  <small>Office 601, 6th Floor, Ras Dashen Building, Airport Road, Bole,Addis Ababa, Ethiopia
+    <br> info@appliedline.com
+    <br> &#169;2018 Appliedline
+  </small>
+</div>

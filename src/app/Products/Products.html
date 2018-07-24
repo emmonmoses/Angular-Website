@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Products-AppliedLine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="background-color:whitesmoke">
+
+  <div class="products_div">
+    <div class="products_desc">
+
+      <div class="newpdiv11" id="pdiv1">
+
+        <div class="newpdiv111">
+          <div class="newpdiv111pic">
+            <img class="res_img" src="./assets/ccheque.jpg">
+          </div>
+        </div>
+
+        <div class="newpdiv112">
+          <p class="subtexts2">Crystal Cheque is a chque writing software that allows you to print on your blank cheques.</p>
+          <ul>
+            <li>Print on your blank cheques.</li>
+            <li>Eliminate problems with spelling errors</li>
+            <li>Eliminate void errors</li>
+            <li>generate and view reports</li>
+          </ul>
+          <p class="subtexts2"> You can download the personal version by clicking the buttton below. the Enterprise version is under development
+            will be released soon
+          </p>
+          <button class="pbtn">Download</button>
+        </div>
+
+      </div>
+      <!-- pdiv1 -->
+
+      <div class="newpdiv11" id="pdiv2">
+
+        <div class="newpdiv111">
+          <div class="newpdiv111pic">
+            <img class="res_img" src="./assets/cestimator.png">
+          </div>
+        </div>
+
+        <div class="newpdiv112">
+          <p class="subtexts2">Cost Estimator is a software designed to help importers estimate the cost of importing any specific type of cargo.
+            <br>The advantage is that it allows importers plan their finances regarding cargo import or perhaps check alternative
+            sources for the cargo in order to minimize cost
+          </p>
+          <ul>
+            <li>For any cargo type(by HS code).</li>
+            <li>Calculate freight charges</li>
+            <li>Calculate port charges</li>
+            <li>Calculate taxes</li>
+          </ul>
+          <button class="pbtn">Download</button>
+        </div>
+
+      </div>
+      <!-- pdiv2 -->
+
+      <div class="newpdiv11" id="pdiv3">
+
+        <div class="newpdiv111">
+          <div class="newpdiv111pic">
+            <img class="res_img" src="./assets/gss.jpg">
+          </div>
+        </div>
+
+        <div class="newpdiv112">
+          <p class="subtexts2">GSS MAN is a suite of modules designed to manage academic activities for schools. It is a fully functional software
+            that is currently utilized by Gibson school Systems and has been running since 2014.
+          </p>
+          <ul>
+            <li>Student registration.</li>
+            <li>Grading system</li>
+            <li>Campus allocation</li>
+            <li>generate and view reports</li>
+            <li>Evaluating teachers</li>
+          </ul>
+          <button class="pbtn">Download</button>
+        </div>
+
+      </div>
+      <!-- pdiv3 -->
+
+      <div class="newpdiv11" id="pdiv4">
+
+        <div class="newpdiv111">
+          <div class="newpdiv111pic">
+            <img class="res_img" src="./assets/mbrowser.png">
+          </div>
+        </div>
+
+        <div class="newpdiv112">
+          <p class="subtexts2">Millennium Browser is one of Appliedline's oldest projects designed and released in the millennium when browsing
+            the internet was in its early stages in Ethiopia. It have the following features
+          </p>
+          <ul>
+            <li>Can type geez letters</li>
+            <li>Can disable geez typing any time</li>
+            <li>Integrated with Millenium express</li>
+            <li>Could be installed on windows and can type in any text editing softwares including Microsoft Office word</li>
+          </ul>
+          <button class="pbtn">Download</button>
+        </div>
+
+      </div>
+      <!-- pdiv4 -->
+
+    </div>
+    <!-- products_desc -->
+
+    <div class="scrollmenu">
+
+      <a>
+        <div class="products crystal_cheque" (click)="pro('pdiv1')">
+          <div class="newpdiv2img">
+            <img class="spic2" src="./assets/ccheque2.jpg">
+          </div>
+          <div class="newpdiv2name">
+            <p class="newtxt">
+              <b>Crystal Cheque</b>
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <a>
+        <div class="products cost_estimator" (click)="pro('pdiv2')">
+          <div class="newpdiv2img">
+            <img class="spic2" src="./assets/cestimator2.png">
+          </div>
+          <div class="newpdiv2name">
+            <p class="newtxt">
+              <b>Cost Estimator</b>
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <a>
+        <div class="products gss_man" (click)="pro('pdiv3')">
+          <div class="newpdiv2img">
+            <img class="spic2" src="./assets/gss2.jpg">
+          </div>
+          <div class="newpdiv2name">
+            <p class="newtxt">
+              <b>GSS MAN</b>
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <a>
+        <div class="products millenium_browser" (click)="pro('pdiv4')">
+          <div class="newpdiv2img">
+            <img class="spic2" src="./assets/mbrowser.png">
+          </div>
+          <div class="newpdiv2name">
+            <p class="newtxt">
+              <b>Millenninum Browser</b>
+            </p>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <!-- scrollmenu -->
+
+    <div class="next">
+      <img class="res_img" src="./assets/next.png" (click)="scright()">
+    </div>
+
+    <div class="prev">
+      <img class="res_img" src="./assets/prev.png" (click)="scleft()">
+    </div>
+
+    <div id="newpdiv2" class="newpdiv2">
+
+      <a>
+        <div class="products crystal_cheque" (click)="pro('pdiv1')">
+          <div class="newpdiv2img">
+            <img class="spic2" src="./assets/ccheque.jpg">
+          </div>
+          <div class="newpdiv2name">
+            <p class="newtxt">
+              <b>Crystal Cheque</b>
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <a>
+        <div class="products cost_estimator" (click)="pro('pdiv2')">
+          <div class="newpdiv2img">
+            <img class="spic2" src="./assets/cestimator.png">
+          </div>
+          <div class="newpdiv2name">
+            <p class="newtxt">
+              <b>Cost Estimator</b>
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <a>
+        <div class="products gss_man" (click)="pro('pdiv3')">
+          <div class="newpdiv2img">
+            <img class="spic2" src="./assets/gss.jpg">
+          </div>
+          <div class="newpdiv2name">
+            <p class="newtxt">
+              <b>GSS MAN</b>
+            </p>
+          </div>
+        </div>
+      </a>
+
+      <a>
+        <div class="products millenium_browser" (click)="pro('pdiv4')">
+
+          <div class="newpdiv2img">
+            <img class="spic2" src="./assets/mbrowser2.png">
+          </div>
+
+          <div class="newpdiv2name">
+            <p class="newtxt">
+              <b>Millenninum Browser</b>
+            </p>
+          </div>
+
+        </div>
+      </a>
+
+    </div>
+    <!-- newpdiv2 -->
+  </div>
+  <!-- products_div -->
+
+</body>
+
+</html>
