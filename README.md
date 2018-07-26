@@ -1,6 +1,10 @@
+# Angular 2-Website
+
+This is a company website, I developed using Angular 2, CSS 3 and Html 5
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.8.0.
 
-## Development server
+# Development server
 
 Start the server using command -  `ng serve` or `npm start`.
 
