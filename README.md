@@ -1,6 +1,6 @@
 # Angular 2-Website
 
-This is a [Company Website](https://appliedline.com/), we developed using Angular 2, CSS 3 and Html 5
+This is a [Company Website](https://appliedline.com/), I developed using Angular 2, CSS 3 and Html 5
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.8.0.
 
