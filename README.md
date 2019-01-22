@@ -8,9 +8,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Start the server using command -  `ng serve` or `npm start`.
 
-## Steps to setup Angular project 
+## Steps to setup this project 
 
-1. Create an Angular CLI project
+1. Open the downloaded Angular project
 2. Install below mentioned packages
 
     i. npm install --save bootstrap@4.0.0-beta
